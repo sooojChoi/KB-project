@@ -26,6 +26,22 @@ KB IT's Your Life의 Vue.js 교육 과정을 이수한 후 진행한 프로젝�
 
 <br>
 
+## 실행 방법
+1. json-server를 실행시켜 데이터를 가져올 수 있도록 준비합니다.
+```
+  json-server db-server/MOCK_DATA.json --port 3001
+```
+
+2. npm으로 필요한 모듈을 설치한 후 서버를 실행합니다.
+```
+cd ahcha-ahcha-app
+npm install
+npm run dev
+```
+(모듈이 모두 설치되지 않았을 경우 추가로 개별 설치를 진행합니다.)
+
+<br>
+
 ## 구현 기능
 
 
